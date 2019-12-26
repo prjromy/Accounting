@@ -1,0 +1,51 @@
+﻿
+@model  List<Loader.Models.MenuTemplate>
+
+<div class="container col-md-12">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+
+                <table id="mytable" class="table table-bordred table-striped">
+
+                    <thead>
+                        <tr>
+                            <th>
+                                MTId
+                            </th>
+                            <th>
+                                Template Name
+                            </th>
+                          
+                            <th>
+                                Posted By
+                            </th>
+                            <th>
+                                Posted On
+                            </th>
+                        </tr>
+                  
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            if (item.MTId == 1)
+                            {
+                                if (Loader.Models.Global.IsSuperAdmin)
+                                {
+                                    @Html.Partial("_ListView", item)
+                                }
+                            }
+                            else
+                            {
+                                @Html.Partial("_ListView", item)
+                            }
+
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

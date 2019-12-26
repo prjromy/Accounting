@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d4a7e745f80e4cda87f02c0521685573" Name="Diagram1">
+        <EntityTypeShape EntityType="ChannakyaAccModel.AddressDef" Width="1.5" PointX="1.5" PointY="48.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.AddressDetail" Width="1.5" PointX="3.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Company" Width="1.5" PointX="10" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.CompanyGrp" Width="1.5" PointX="7.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.CompanyType" Width="1.5" PointX="7.75" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Contact" Width="1.5" PointX="6.75" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.ContactDef" Width="1.5" PointX="4.5" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.ContactPrsn" Width="1.5" PointX="3.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.CustAll" Width="1.5" PointX="0.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Individual" Width="1.5" PointX="13" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Info" Width="1.5" PointX="1.5" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Occupation" Width="1.5" PointX="10.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Type" Width="1.5" PointX="1.5" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.AccessRole" Width="1.5" PointX="15.25" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.BankInfo" Width="1.5" PointX="10.25" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.BatchCount" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.BatchDescription" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Claim" Width="1.5" PointX="17.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Company1" Width="1.5" PointX="7.75" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.CurrencyType" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Department" Width="1.5" PointX="10" PointY="34.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.DimensionDefination" Width="1.5" PointX="0.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.DimensionValue" Width="1.5" PointX="3" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.DimensionVSLedger" Width="1.5" PointX="5.25" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Employee" Width="1.5" PointX="13.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.EmployeeDetail" Width="1.5" PointX="13" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.FinAcc" Width="1.5" PointX="3" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.FinSys1" Width="1.5" PointX="1.5" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.FinSys2" Width="1.5" PointX="0.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.FiscalYear" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Gender" Width="1.5" PointX="10.75" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Icon" Width="1.5" PointX="8.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.InterestMinimumBalance" Width="1.5" PointX="9.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.InterestRule" Width="1.5" PointX="8" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.InterestTime" Width="1.5" PointX="5.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.LoginRole" Width="1.5" PointX="13" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Login" Width="1.5" PointX="17.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Menu" Width="1.5" PointX="11" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.MenuList" Width="1.5" PointX="13" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.OnProccessingVoucher" Width="1.5" PointX="9.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.RegisterUser" Width="1.5" PointX="15.25" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.Role" Width="1.5" PointX="13.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.SMTPConfig" Width="1.5" PointX="11.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.SubLedger" Width="1.5" PointX="3" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.SubsiTitle" Width="1.5" PointX="0.75" PointY="44.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.SubsiVSFId" Width="1.5" PointX="5.25" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.sysdiagram" Width="1.5" PointX="13.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.SystemInfo" Width="1.5" PointX="13.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.UnverifiedCheque" Width="1.5" PointX="7.5" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.UnverifiedVoucherDetail" Width="1.5" PointX="5.25" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.UnverifiedVoucherMaster" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.User" Width="1.5" PointX="15.5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.VoucherCheque" Width="1.5" PointX="7.5" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.VoucherCount" Width="1.5" PointX="6" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.VoucherDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.VoucherMaster" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyaAccModel.VoucherType" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerAddressDetails_CustomerAddressDefinition" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerAddressDetails_CustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerCompany_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerCompany_CustomerCompanyGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerCompany_CustomerCompanyType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerCompany_CustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerIndividual_CustomerCompanyGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerContact_CustomerContactDefination" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerContact_CustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerContactPerson_CustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerAll_CustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_SubLedger_CustomerAll" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerIndividual_CustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerIndividual_CustomerOccupation" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_Individual_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_CustomerInfo_CustomerType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_AccessRole_LoginRole" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_AccessRole_MenuList" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK__BankInfo__Fid__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_BankInfo_InterestRuleID" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_BatchCount_BatchDescription" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_BatchCount_FiscalYear" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_BatchCount_VoucherType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_UnverifiedVoucherMaster_BatchDescription" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherMaster_BatchDescription" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_Department_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_UnverifiedVoucherMaster_CurrencyType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherMaster_CurrencyType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_DimensionValue_DimensionDefination" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherDetail_DimensionValue" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherDetail_DimensionValue1" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherDetail_DimensionValue2" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_DimensionVSLedger_FinAcc" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_Users_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_EmployeeDetails_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_RegisterUser_EmployeeDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_FinAcc_FinSys2" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_SubsiTitle_FinAcc" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_SubsiVSFId_FinAcc" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_Voucher2_FinAcc" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_FinSys2_FinSys1" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherCount_FiscalYear" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherMaster_FiscalYear" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherMaster_FiscalYear1" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherMaster_FiscalYear2" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_dbo_Menu_dbo_Icon_IconID" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_RegisterUser_LoginRole" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_dbo_Menu_dbo_Menu_ParentMenuId" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_SubLedger_SubsiTitle" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_UnverifiedVoucherDetail_SubLedger" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherDetail_SubLedger" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_SubsiVSFId_SubsiTitle" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VerifyCheque_VerifyVoucher2" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VerifyVoucher2_VerifyVoucher1" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK__Voucher1__Vouche__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_ChequeInfo_VoucherDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherCount_VoucherType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_Voucher2_Voucher1" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.FK_VoucherMaster_VoucherType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.MenuVsTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyaAccModel.UserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

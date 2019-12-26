@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="395e113aa5bb4bc29a51f485453f40fa" Name="Diagram1" ZoomLevel="66">
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CurrencyType" Width="1.5" PointX="3" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DimensionTable" Width="1.5" PointX="9" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DimensionValue" Width="1.5" PointX="13.5" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.InterestRule" Width="1.5" PointX="5.25" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.InterestTime" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.OnProccessingVoucher" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SubsiTable" Width="1.5" PointX="8.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.UserVSVoucher" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Voucher2" Width="1.5" PointX="10.5" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Voucher3" Width="1.5" PointX="12.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Voucher3T" Width="1.5" PointX="12.75" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Voucher4" Width="1.5" PointX="15.75" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Voucher4T" Width="1.5" PointX="15.75" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Voucher5" Width="1.5" PointX="12.75" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Voucher5T" Width="1.5" PointX="12.75" PointY="53.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.VoucherCount" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.VoucherRejected" Width="1.5" PointX="10.5" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CertificateDef" Width="1.5" PointX="21.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ContactDef" Width="1.5" PointX="24.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustAddress" Width="1.5" PointX="26.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustCertificate" Width="1.5" PointX="26.25" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustCompany" Width="1.5" PointX="29.25" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustCompGroup" Width="1.5" PointX="27" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustContact" Width="1.5" PointX="29.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustContactPerson" Width="1.5" PointX="26.25" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustIRegContact" Width="1.5" PointX="31.5" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustType" Width="1.5" PointX="21.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustTypeCertificate" Width="1.5" PointX="27" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustTypeContact" Width="1.5" PointX="27" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustTypeSector" Width="1.5" PointX="24" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.OccupationDef" Width="1.5" PointX="27" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RemittanceCustomer" Width="1.5" PointX="7.5" PointY="62.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.FiscalYear1" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.InterestMinimumBalance" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CurrencyType1" Width="1.5" PointX="16.5" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.InterestLog" Width="1.5" PointX="10.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RuleBalance" Width="1.5" PointX="17.25" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RuleICB" Width="1.5" PointX="5.25" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RuleMovement" Width="1.5" PointX="5.25" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RulePaySch" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RulePenBalance" Width="1.5" PointX="14.25" PointY="63.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RuleRate" Width="1.5" PointX="17.25" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.BloodGroup" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DataType" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Designation" Width="1.5" PointX="6.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Employee" Width="1.5" PointX="14.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.FiscalYear2" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Gender" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.LoginLog" Width="1.5" PointX="14.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.MaritialStatu" Width="1.5" PointX="8.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.MenuMain" Width="1.5" PointX="16.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.MenuTemplate" Width="1.5" PointX="10.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.MenuVsTemplate" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Nationality" Width="1.5" PointX="2.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Param" Width="1.5" PointX="16.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ParamScript" Width="1.5" PointX="4.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ParamValue" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Religion" Width="1.5" PointX="16.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Role" Width="1.5" PointX="16.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Status" Width="1.5" PointX="12.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.TransferRole" Width="1.5" PointX="15.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.User" Width="1.5" PointX="17.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.UserClaim" Width="1.5" PointX="18.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.UserLogin" Width="1.5" PointX="18.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.UserRole" Width="1.5" PointX="18.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.UserVSBranch" Width="1.5" PointX="18.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Task" Width="1.5" PointX="5.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.TaskDetail" Width="1.5" PointX="8" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.MenuVsTransferRole" Width="1.5" PointX="18.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.UserVsRole" Width="1.5" PointX="0.75" PointY="20.75" IsExpanded="true" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher4_DimensionValue" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher4T_DimensionValue" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher3_Voucher2" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher3_Voucher21" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher4_Voucher2" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustTypeCertificate_CertificateDef" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustContact_ContactDef" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustTypeContact_ContactDef" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustCompany_CustCompGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustIRegContact_CustContact1" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustTypeCertificate_CustType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustTypeContact_CustType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustTypeSector_CustType" ManuallyRouted="false" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_TaskDetails_Task" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SectorDef" Width="1.5" PointX="20.375" PointY="18.875" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustTypeSector_SectorDef" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SubsiSetup" Width="1.5" PointX="8.25" PointY="47.875" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_RemittanceCustomers_CustCompany" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Department" Width="1.5" PointX="21.375" PointY="4.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SubsiTitle_not_used" Width="1.5" PointX="7.5" PointY="56.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SubsiDetail1" Width="1.5" PointX="22.375" PointY="20.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Company" Width="1.5" PointX="21.375" PointY="7.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustIndividual" Width="1.5" PointX="32.25" PointY="17.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CustInfo" Width="1.5" PointX="27" PointY="1.625" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustInfo_CertificateDef" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustAddress_CustInfo" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustCertificate_CustInfo" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustCompany_CustInfo" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustContact_CustInfo" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustContactPerson_CustInfo" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustIndividual_CustInfo" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustIndividual_OccupationDef" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustInfo_CustInfo" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustInfo_CustType" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustInfo_SectorDef" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustIRegContact_CustInfo" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.BankInfo" Width="1.5" PointX="10.5" PointY="41.25" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.BatchDescription" Width="1.5" PointX="6.75" PointY="1.25" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DimensionDefination" Width="1.5" PointX="14.25" PointY="20" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DimensionVSLedger" Width="1.5" PointX="10.5" PointY="79.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.FinAcc" Width="1.5" PointX="8.25" PointY="46.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.FinSys1" Width="1.5" PointX="3.75" PointY="48.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.FinSys2" Width="1.5" PointX="6" PointY="47.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.FiscalYear" Width="1.5" PointX="3.75" PointY="4" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SubsiDetail" Width="1.5" PointX="14.375" PointY="0.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SubsiVSFId" Width="1.5" PointX="13.5" PointY="44.25" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SubsiVSOpeningBalance" Width="1.5" PointX="10.375" PointY="11.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Voucher1" Width="1.5" PointX="11.25" PointY="29.25" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Voucher1T" Width="1.5" PointX="11.25" PointY="51.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Voucher2T" Width="1.5" PointX="13.5" PointY="47.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.VoucherBal" Width="1.5" PointX="6.375" PointY="20.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.VoucherNo" Width="1.5" PointX="9" PointY="3.5" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.VoucherType" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ADetail" Width="1.5" PointX="21.75" PointY="42.25" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DepositBasi" Width="1.5" PointX="8.375" PointY="20.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Duration" Width="1.5" PointX="24.375" PointY="0.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.LicenseBranch" Width="1.5" PointX="10.375" PointY="22.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.PolicyIntCalc" Width="1.5" PointX="18.75" PointY="76.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.PolicyPenCalc" Width="1.5" PointX="18.75" PointY="72.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ProductBrnch" Width="1.5" PointX="18" PointY="66.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ProductDurationInt" Width="1.5" PointX="18" PointY="69" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ProductICBDur" Width="1.5" PointX="18" PointY="41.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ProductPay" Width="1.5" PointX="18" PointY="45" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ProductPCID" Width="1.5" PointX="21" PointY="36" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ProductPSID" Width="1.5" PointX="18" PointY="39" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ProductTID" Width="1.5" PointX="18" PointY="55.25" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RuleDuration" Width="1.5" PointX="16.5" PointY="73.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RuleICBDuration" Width="1.5" PointX="15.75" PointY="28.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RulePay" Width="1.5" PointX="15.75" PointY="57.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RuleRenew" Width="1.5" PointX="13.5" PointY="39.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SchmDetail" Width="1.5" PointX="10.5" PointY="34.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Event" Width="1.5" PointX="6.5" PointY="7.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ProductCurrency" Width="1.5" PointX="18" PointY="58.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ProductOPSID" Width="1.5" PointX="21" PointY="39.125" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK__BankInfo__Fid__173876EA" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_BankInfo_FinAcc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_BankInfo_InterestRuleID" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_BatchCount_BatchDescription" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_VoucherNo_BatchDescription" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher1_CurrencyType" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher1T_CurrencyType" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DimensionDefination_DimensionTable" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DimensionValue_DimensionDefination" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DimensionVSLedger_FinAcc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_FinAcc_FinSys2" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_RemittanceCustomers_FinAcc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_SchmDetails_FinAcc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_SubsiTitle_FinAcc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_SubsiVSFId_FinAcc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher2_FinAcc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher2_FinAcc1" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher2T_FinAcc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_FinSys2_FinSys1" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_BatchCount_FiscalYear" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_VoucherCount_FiscalYear" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_VoucherNo_FiscalYear" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_SubsiVSFId_SubsiSetup" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher2_Voucher1" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher2_Voucher11" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_VoucherRejected_Voucher1" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher2T_Voucher1T" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher3T_Voucher2T" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher4T_Voucher2T" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Voucher5T_Voucher2T" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_VoucherCount_VoucherType" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_BatchCount_VoucherType" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_VoucherNo_VoucherType" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ADetail_CurrencyType" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_PolicyIntCalc_RuleBalance" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_PolicyIntCalc_RuleDuration" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_PolicyIntCalc_RuleRate" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductOPSID_PolicyIntCalc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductPSID_PolicyIntCalc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_PolicyPenCalc_RuleDuration" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_PolicyPenCalc_RulePenBalance" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_PolicyPenCalc_RuleRate" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductPCID_PolicyPenCalc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductICBDur_RuleICBDuration" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductPay_RulePay" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_SchmDetails_RuleICB" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_SchmDetails_RuleMovement" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Task_Events" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.C__MigrationHistory" Width="1.5" PointX="3.75" PointY="2.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ADrlimitLog" Width="1.5" PointX="7.75" PointY="13.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALSchHistry" Width="1.5" PointX="21.75" PointY="2.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.HolidaysInYear" Width="1.5" PointX="3.75" PointY="22.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.LicenseRegion" Width="1.5" PointX="8.5" PointY="26.5" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.sysdiagram" Width="1.5" PointX="5.75" PointY="25.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AAdjustmnt" Width="1.5" PointX="13.75" PointY="25.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ABal" Width="1.5" PointX="19.75" PointY="28.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AccountStatu" Width="1.5" PointX="19.875" PointY="49.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AChq" Width="1.5" PointX="24.375" PointY="97.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AchqFGdPymt" Width="1.5" PointX="24.375" PointY="26.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AchqH" Width="1.5" PointX="26.625" PointY="98.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AchqHH" Width="1.5" PointX="28.875" PointY="98.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Aclosed" Width="1.5" PointX="21.75" PointY="28.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ADrLimit" Width="1.5" PointX="24.375" PointY="169.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ADSch" Width="1.5" PointX="24.375" PointY="178.25" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ADSchLog" Width="1.5" PointX="5.75" PointY="28.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ADur" Width="1.5" PointX="24.375" PointY="183.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AICBDur" Width="1.5" PointX="24.375" PointY="187.25" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AintCap" Width="1.5" PointX="0.75" PointY="29.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AintPayable" Width="1.5" PointX="24.375" PointY="189.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALColl" Width="1.5" PointX="24.375" PointY="48.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALCollLand" Width="1.5" PointX="26.625" PointY="40.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALCollVehicle" Width="1.5" PointX="26.625" PointY="55.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALFixedDeposit" Width="1.5" PointX="26.625" PointY="51.5" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALinkloan" Width="1.5" PointX="24.375" PointY="122.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALoan" Width="1.5" PointX="24.375" PointY="159.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALoanGrace" Width="1.5" PointX="24.375" PointY="135.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALRegCust" Width="1.5" PointX="26.625" PointY="44.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALRegistration" Width="1.5" PointX="24.375" PointY="43.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALSch" Width="1.5" PointX="24.375" PointY="115.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALSchHistry1" Width="1.5" PointX="2.75" PointY="29.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AMClearance" Width="1.5" PointX="7.75" PointY="29.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AMinBal" Width="1.5" PointX="24.375" PointY="127.5" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AMTransLoan" Width="1.5" PointX="28.75" PointY="20.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ANomAcc" Width="1.5" PointX="24.375" PointY="91.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ANominee" Width="1.5" PointX="24.375" PointY="34" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AOfCust" Width="1.5" PointX="29.625" PointY="28" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AOPolInt" Width="1.5" PointX="24.375" PointY="133.5" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.APBookChked" Width="1.5" PointX="29.75" PointY="31.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.APolicyInterest" Width="1.5" PointX="24.375" PointY="153.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.APolPen" Width="1.5" PointX="24.375" PointY="139.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.APRate" Width="1.5" PointX="24.375" PointY="172.5" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ARate" Width="1.5" PointX="27.375" PointY="48.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ARateMaster" Width="1.5" PointX="25.125" PointY="60.5" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ASClearance" Width="1.5" PointX="2.75" PointY="33.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ASTransLoan" Width="1.5" PointX="31.75" PointY="12.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ASTransLoanDesc" Width="1.5" PointX="28.75" PointY="10.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ATempFloatIntRate" Width="1.5" PointX="24.375" PointY="125.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AWtdQueue" Width="1.5" PointX="24.375" PointY="101.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CashFlow" Width="1.5" PointX="7.75" PointY="35.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CashLimit" Width="1.5" PointX="24" PointY="10" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ChargeDetail" Width="1.5" PointX="12.125" PointY="0.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ChequeBookStatu" Width="1.5" PointX="15.75" PointY="33.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ChqAttribute" Width="1.5" PointX="34.75" PointY="7.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ChqInventory" Width="1.5" PointX="33.75" PointY="12.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ChqRqst" Width="1.5" PointX="24.375" PointY="167" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ChqSize" Width="1.5" PointX="31.75" PointY="31.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CollMainTemp" Width="1.5" PointX="31.75" PointY="26.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CollSheet" Width="1.5" PointX="34.75" PointY="2.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CollSheetTran" Width="1.5" PointX="37" PointY="2.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.CollTemp" Width="1.5" PointX="34" PointY="26.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DenoBal" Width="1.5" PointX="32" PointY="5.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Denosetup" Width="1.5" PointX="29.75" PointY="5.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DisburseCash" Width="1.5" PointX="26.625" PointY="145" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DisburseCharge" Width="1.5" PointX="26.625" PointY="141.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DisburseCheque" Width="1.5" PointX="26.625" PointY="148" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DisburseDeposit" Width="1.5" PointX="26.625" PointY="94.5" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DisbursementMain" Width="1.5" PointX="24.375" PointY="145.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DisburseVsPID" Width="1.5" PointX="26.625" PointY="150.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.EmployeeVsBranch" Width="1.5" PointX="34.75" PointY="16.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Flag" Width="1.5" PointX="33.75" PointY="31.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ForeignSBuySell" Width="1.5" PointX="34.75" PointY="20.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.FrxCurrency" Width="1.5" PointX="34.75" PointY="34.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Guarantor" Width="1.5" PointX="24.375" PointY="93.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.HADRenew" Width="1.5" PointX="35.75" PointY="12.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.HALRenew" Width="1.5" PointX="0.75" PointY="38.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.IchkBounce" Width="1.5" PointX="24.375" PointY="112.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.IChkDep" Width="1.5" PointX="27.375" PointY="32" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.MessInfo" Width="1.5" PointX="26.75" PointY="37.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.MobileBanking" Width="1.5" PointX="2.75" PointY="38.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.MyBalance" Width="1.5" PointX="35.75" PointY="31.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.NCollateralDetail" Width="1.5" PointX="22.125" PointY="57" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ReferenceInfo" Width="1.5" PointX="24.375" PointY="180.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RemitDeposit" Width="1.5" PointX="22" PointY="31.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.RemitPayment" Width="1.5" PointX="19" PointY="34.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SCrtDtl" Width="1.5" PointX="32.75" PointY="39" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ShareReferenceInfo" Width="1.5" PointX="32" PointY="46.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ShrReg" Width="1.5" PointX="29.75" PointY="37.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ShrSPurchase" Width="1.5" PointX="32" PointY="34.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ShrSReturn" Width="1.5" PointX="36.75" PointY="6.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Snominee" Width="1.5" PointX="32" PointY="42.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.StatusChangeLog" Width="1.5" PointX="36.75" PointY="16.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SWRestrictionA" Width="1.5" PointX="36.75" PointY="19.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.TaxsetupDef" Width="1.5" PointX="19.875" PointY="25" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.TempALSch" Width="1.5" PointX="24.375" PointY="129.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.TempIntRate" Width="1.5" PointX="13.125" PointY="58" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.TempIntRateVal" Width="1.5" PointX="15.375" PointY="67.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.UserConnection" Width="1.5" PointX="36.75" PointY="22.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Location" Width="1.5" PointX="29.75" PointY="23.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.LocationMaster" Width="1.5" PointX="32" PointY="23.75" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.LocationTypeDef" Width="1.5" PointX="24.375" PointY="13.5" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.Module" Width="1.5" PointX="3.625" PointY="8.875" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.SheetNo" Width="1.5" PointX="36.75" PointY="25.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.UserConnection1" Width="1.5" PointX="23.75" PointY="38.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AMTrn" Width="1.5" PointX="4.75" PointY="39.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ASTrn" Width="1.5" PointX="37.75" PointY="11.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ChgMTrnx" Width="1.5" PointX="37.75" PointY="28.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ChgSTrnx" Width="1.5" PointX="37.75" PointY="33.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DenoTrxn" Width="1.5" PointX="32" PointY="2.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.DenoTrxnLog" Width="1.5" PointX="32" PointY="8.625" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.FrxCurrencyRate" Width="1.5" PointX="19.125" PointY="53.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.TmEditLog" Width="1.5" PointX="37.75" PointY="38.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.TType" Width="1.5" PointX="38.75" PointY="6.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.C_temp" Width="1.5" PointX="6.75" PointY="40.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.BrnchGlobal" Width="1.5" PointX="38.75" PointY="16.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.BSADCal" Width="1.5" PointX="38.75" PointY="21.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.NDateD" Width="1.5" PointX="39.75" PointY="9.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.NDate" Width="1.5" PointX="22.75" PointY="20.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.tempFinAcc" Width="1.5" PointX="38.75" PointY="24.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AIntExpens" Width="1.5" PointX="24.375" PointY="156.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ALoanTra" Width="1.5" PointX="39.75" PointY="27.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AMClearanceH" Width="1.5" PointX="24.375" PointY="106.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AMClearanceHR" Width="1.5" PointX="39.75" PointY="33.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AODIntReceivable" Width="1.5" PointX="39.75" PointY="2.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.AODSetUp" Width="1.5" PointX="23.75" PointY="41.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ForeignBuySell" Width="1.5" PointX="39.75" PointY="40.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.IntLog" Width="1.5" PointX="24.375" PointY="175" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ShrPurchase" Width="1.5" PointX="35" PointY="37.375" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ShrReturn" Width="1.5" PointX="40.75" PointY="14.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ChequeBookStatus1" Width="1.5" PointX="40.75" PointY="6.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ShrSetup" Width="1.5" PointX="40.75" PointY="19.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.taskDetails1" Width="1.5" PointX="40.75" PointY="22.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.uttno" Width="1.5" PointX="40.75" PointY="25.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.TranLnk" Width="1.5" PointX="28.75" PointY="42.125" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.TransactionEditStatusLog" Width="1.5" PointX="34.75" PointY="42.125" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ANominee_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustAddress_Location" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustAddress_LocationTypeDef" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AOfCust_CustInfo" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CustType_TaxsetupDef" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_RemitDeposit_RemittanceCustomer" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_RemitPayment_RemittanceCustomer" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_LicenseBranch_LicenseRegion" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ADetail_AccountStatus" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AChq_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AchqH_AChq" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AchqFGdPymt_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AchqFGdPymt_Company" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AchqHH_AchqH" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AccountCreInfo_AccountDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AccountDur_AccountDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AccountMinBal_AccountDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AccountOPolInt_AccountDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AccountPolPen_AccountDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AccountPRate_AccountDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AccountSch_AccountDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ADrLimit_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ADSch_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AICBDur_ADetail1" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AIntExpenses_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AintPayable_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALColl_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALinkloan_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALoan_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALoanGrace_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALRegistration_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AMClearanceH_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ANomAcc_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ANominee_ANominee" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AOfCust_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ARate_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ATempIntRate_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_AWtdQueue_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ChqRqst_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DisburseDeposit_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DisbursementMain_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Guarantor_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_IchkBounce_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_IChkDep_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_IChkDep_ADetail1" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_IntLog_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ReferenceInfo_ADetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_TempALSch_AccountDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALColl_NCollateralDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALCollLand_ALColl" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALCollVehicle_ALColl" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALFixedDeposit_ALColl" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALRegCusts_ALRegistration1" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ARate_ARateMaster" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CashLimitS_CashLimitS" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CashLimitS_Company" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ChargeDetail_FinAcc" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ChargeDetail_Modules" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CollTemp_CollMainTemp" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_CollSheetTrans_CollSheet" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_FrxCurrencyRate_CurrencyType" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DenoBal_Denosetup" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DenoTrxn_Denosetup" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DenoTrxnCopy_Denosetup" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DisCash_DisbursementMain" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DisburseCharge_DisbursementMain" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DisburseCheque_DisbursementMain" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DisburseDeposit_DisbursementMain" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_DisburseVsPID_DisbursementMain" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_IChkDep_Company" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_RemitDeposit_LicenseBranch" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_RemitPayment_LicenseBranch" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductTID_TempIntRate" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ShrPurchase_SCrtDtls" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ShareReferenceInfo_ShareRegistration" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ShrPurchase_ShrReg" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ShrSPurchase_ShrReg" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Snominee_ShrReg" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_tempIntRateVal_tempIntRate" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_LocationMaster_Location" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_Events_Modules" />
+        <EntityTypeShape EntityType="ChannakyabaseMigrationTestingModel.ProductDetail" Width="1.5" PointX="29.75" PointY="44.75" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductDetail_FinAcc1" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ADetail_ProductDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ALRegistration_ProductDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_BrnchProducts_ProductDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductCurrency_ProductDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductDetail_RuleRenew" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductDetail_SchmDetails" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductDurationInt_ProductDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductICBDur_ProductDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductOPSID_ProductDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductPay_ProductDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductPCID_ProductDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductPSID_ProductDetail" />
+        <AssociationConnector Association="ChannakyabaseMigrationTestingModel.FK_ProductTID_ProductDetail" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

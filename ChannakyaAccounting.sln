@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannakyaAccounting", "ChannakyaAccounting\ChannakyaAccounting.csproj", "{E8B20C4C-8A4C-4A14-91FD-0B64BC5431B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannakyaAccounting.Models", "ChannakyaAccounting.Models\ChannakyaAccounting.Models.csproj", "{8202CBC2-27A4-41A9-9E6B-631A5C25071D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannakyaAccounting.Service", "ChannakyaAccounting.Service\ChannakyaAccounting.Service.csproj", "{D12D1720-4EA0-436D-BF2F-EAB6E95E42D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannakyaAccounting.Data", "ChannakyaAccounting.Repository\ChannakyaAccounting.Data.csproj", "{0F1F6A9D-0B15-4D4B-85BB-C4D60A18D90A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannakyaAccounting.BL", "ChannakyaAccounting.BL\ChannakyaAccounting.BL.csproj", "{3BDA85C3-8F98-4135-8A21-15734D4DC8AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8B20C4C-8A4C-4A14-91FD-0B64BC5431B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B20C4C-8A4C-4A14-91FD-0B64BC5431B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B20C4C-8A4C-4A14-91FD-0B64BC5431B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B20C4C-8A4C-4A14-91FD-0B64BC5431B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8202CBC2-27A4-41A9-9E6B-631A5C25071D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8202CBC2-27A4-41A9-9E6B-631A5C25071D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8202CBC2-27A4-41A9-9E6B-631A5C25071D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8202CBC2-27A4-41A9-9E6B-631A5C25071D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12D1720-4EA0-436D-BF2F-EAB6E95E42D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12D1720-4EA0-436D-BF2F-EAB6E95E42D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12D1720-4EA0-436D-BF2F-EAB6E95E42D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12D1720-4EA0-436D-BF2F-EAB6E95E42D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1F6A9D-0B15-4D4B-85BB-C4D60A18D90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1F6A9D-0B15-4D4B-85BB-C4D60A18D90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1F6A9D-0B15-4D4B-85BB-C4D60A18D90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1F6A9D-0B15-4D4B-85BB-C4D60A18D90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDA85C3-8F98-4135-8A21-15734D4DC8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDA85C3-8F98-4135-8A21-15734D4DC8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDA85C3-8F98-4135-8A21-15734D4DC8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDA85C3-8F98-4135-8A21-15734D4DC8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFA05F49-257F-414A-9A75-1A6291255EF0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://182.93.88.253:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = ChannakyaAccounting.Models\\ChannakyaAccounting.Models.csproj
+		SccProjectName0 = ChannakyaAccounting.Models
+		SccAuxPath0 = http://182.93.88.253:8080/tfs/defaultcollection
+		SccLocalPath0 = ChannakyaAccounting.Models
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ChannakyaAccounting.Repository\\ChannakyaAccounting.Data.csproj
+		SccProjectName1 = ChannakyaAccounting.Repository
+		SccAuxPath1 = http://182.93.88.253:8080/tfs/defaultcollection
+		SccLocalPath1 = ChannakyaAccounting.Repository
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ChannakyaAccounting.Service\\ChannakyaAccounting.Service.csproj
+		SccProjectName2 = ChannakyaAccounting.Service
+		SccAuxPath2 = http://182.93.88.253:8080/tfs/defaultcollection
+		SccLocalPath2 = ChannakyaAccounting.Service
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = ChannakyaAccounting.BL\\ChannakyaAccounting.BL.csproj
+		SccProjectName3 = ChannakyaAccounting.BL
+		SccAuxPath3 = http://182.93.88.253:8080/tfs/defaultcollection
+		SccLocalPath3 = ChannakyaAccounting.BL
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = ChannakyaAccounting\\ChannakyaAccounting.csproj
+		SccProjectName4 = ChannakyaAccounting
+		SccAuxPath4 = http://182.93.88.253:8080/tfs/defaultcollection
+		SccLocalPath4 = ChannakyaAccounting
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

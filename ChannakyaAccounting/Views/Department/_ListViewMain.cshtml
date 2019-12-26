@@ -1,0 +1,36 @@
+﻿@model  List<Loader.Models.Department>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+
+                <table id="mytable" class="table table-bordred table-striped" style="max-width:63%;">
+
+                    <thead>
+
+                    <th>
+                        Department Name
+                    </th>
+                    <th>
+                        Posted By
+                    </th>
+                    <th>
+                        Posted On
+                    </th>
+
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            @Html.Partial("_ListView", item)
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

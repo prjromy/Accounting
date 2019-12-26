@@ -1,0 +1,114 @@
+﻿
+@model ChannakyaAccounting.Models.ViewModel.TaskVerificationList
+@using ChannakyaAccounting.Service
+@{
+    ViewBag.Title = "EmployeeList";
+}
+
+@using (Html.BeginForm("SaveTablePermanent", "Voucher1", FormMethod.Post, new { @id = "saveVoucherPermanent" }))
+{
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close" id="closeTop" data-dismiss="modal" aria-hidden="true">&times;</span>
+            <h4 class="modal-title">Verifier</h4>
+        </div>
+        <div class="modal-body">
+            <div class="content-box">
+                <div class="row">
+                </div>
+                @if (ViewBag.IsStrictlyVerified == true)
+                {
+                <div class="table-responsive table-click-verifier">
+                    @Html.HiddenFor(x => x.IsMultiVerifier)
+                    @Html.HiddenFor(x => x.EventId)
+                    @Html.HiddenFor(x=>x.Narration)
+                    @Html.HiddenFor(x => x.IsMultiVerifier)
+                    @Html.TextBoxFor(x => x.VoucherTempId, new { @value = ViewBag.V1TId, @style = "display:none;" })
+                  
+                    <table class="table table-bordered table-striped table-click-verifier-list table-hover">
+                       
+                        <thead>
+                            <tr>
+                                <th>User Name</th>
+                                <th>Employee Name</th>
+                                <th>Choose Name</th>
+
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+
+                            @foreach (var item in Model.VerifierList)
+                            {
+
+                                @Html.Partial("_VerifierDetails", item)
+                            }
+                           
+                        </tbody>
+                    </table>
+                 
+                    @Html.TextAreaFor(x => x.Message, new { @class = "form-control", @placeholder = "Message" })
+                </div>
+                }
+                else
+                {
+                    @Html.HiddenFor(x => x.IsMultiVerifier)
+                    @Html.HiddenFor(x => x.EventId)
+                    @Html.HiddenFor(x => x.IsMultiVerifier)
+                    @Html.TextBoxFor(x => x.VoucherTempId, new { @value = ViewBag.V1TId, @style = "display:none;" })
+                    @Html.TextAreaFor(x => x.Message, new { @class = "form-control", @placeholder = "Message" })
+                }
+                <div class="btn-groups modal-footer">
+                    <input type="submit" value="Save" class="btn btn-default btn-account-verifier-save"  />
+                    <input type="button" value="Close" class="btn btn-default btn-account-verifier-close" data-dismiss="modal" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+}
+
+@*<script type="text/javascript">
+    $("#saveVoucherPermanent").submit(function () {
+        debugger;
+        var form = $(this);
+     
+
+        var container = $(this).closest('.panel-create');
+        var formData = new FormData($(this)[0]);
+        //var nodeId = $(this).closest('form#createFinAcc').find('.parent-FinAcc').find('div#Pid').find('input.internal-value').val();
+
+
+        $.MessageBox({
+            buttonDone: "Yes",
+            buttonFail: "No",
+            message: "Are you sure?"
+        }).done(function () {
+
+
+            $.ajax({
+                url: '@Url.Action("SaveTablePermanent", "Voucher1")',
+                type: 'POST',
+                data: {formData:formData,V1TId:@ViewBag.V1TId },
+                async: false,
+                success: function (data) {
+                    debugger;
+                    $(container).html(data);
+
+                },
+                error: function (data) {
+                    debugger;
+                    ErrorAlert(data.responseText, 15000)
+                },
+                cache: false,
+                contentType: false,
+                processData: false
+            });
+        }).fail(function () {
+            //$.MessageBox("you clicked no");
+        });
+
+        return false;
+    });
+</script>*@

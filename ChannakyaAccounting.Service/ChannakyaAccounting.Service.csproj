@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D12D1720-4EA0-436D-BF2F-EAB6E95E42D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChannakyaAccounting.Service</RootNamespace>
+    <AssemblyName>ChannakyaAccounting.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BeginCollectionItem">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\BeginCollectionItem.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannakyaAccounting">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\ChannakyaAccounting.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannakyaAccounting.BL">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\ChannakyaAccounting.BL.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Loader, Version=2019.1.25.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Loader\Loader\bin\Loader.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="MoreLinq">
+      <HintPath>..\packages\morelinq.2.6.0\lib\net40\MoreLinq.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc">
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Base-BackUp\Channakya Base\Channakya Base\bin\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BatchDescription\BatchDescription.cs" />
+    <Compile Include="Deposit Product\DepositProductService.cs" />
+    <Compile Include="Deposit Scheme\DepositSchemeService.cs" />
+    <Compile Include="DepositValue\DepositValueService.cs" />
+    <Compile Include="DimensionDefination\DimensionDefinationService.cs" />
+    <Compile Include="DimensionValue\DimensionValueService.cs" />
+    <Compile Include="FinAcc\FinAccService.cs" />
+    <Compile Include="FinSys2\FinSys2Service.cs" />
+    <Compile Include="GenerateSubsiTypeList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subsi Setup\SubsiSetupService.cs" />
+    <Compile Include="SubsiDetail\SubsiDetailService.cs" />
+    <Compile Include="TaskVerification\TaskUtilityService.cs" />
+    <Compile Include="TaskVerification\TaskVerification.cs" />
+    <Compile Include="Teller\TellerServiceAcc.cs" />
+    <Compile Include="Voucher1\Voucher1Service.cs" />
+    <Compile Include="VoucherBalance\VoucherBalanceService.cs" />
+    <Compile Include="VoucherMap\VoucherMapService.cs" />
+    <Compile Include="VoucherReport\VoucherReportsService.cs" />
+    <Compile Include="VoucherType\VoucherType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChannakyaAccounting.Models\ChannakyaAccounting.Models.csproj">
+      <Project>{8202cbc2-27a4-41a9-9e6b-631a5c25071d}</Project>
+      <Name>ChannakyaAccounting.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChannakyaAccounting.Repository\ChannakyaAccounting.Data.csproj">
+      <Project>{0f1f6a9d-0b15-4d4b-85bb-c4d60a18d90a}</Project>
+      <Name>ChannakyaAccounting.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

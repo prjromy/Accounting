@@ -1,0 +1,1011 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8202CBC2-27A4-41A9-9E6B-631A5C25071D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChannakyaAccounting.Models</RootNamespace>
+    <AssemblyName>ChannakyaAccounting.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="BeginCollectionItem">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\BeginCollectionItem.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Workspace4\Channakya Base\Channakya Base\bin\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebGrease">
+      <HintPath>..\..\Final\WebApplication2 - Copy\Loader\bin\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper\CookiesHelper.cs" />
+    <Compile Include="Helper\HtmlHelperExtension.cs" />
+    <Compile Include="MetaData\MetaData.cs" />
+    <Compile Include="Models\AAdjustmnt.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ABal.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountStatu.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AChq.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AchqFGdPymt.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AchqH.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AchqHH.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Aclosed.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ADetail.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ADrLimit.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ADrlimitLog.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ADSch.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ADSchLog.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ADur.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AICBDur.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AintCap.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AIntExpens.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AintPayable.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALColl.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALCollLand.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALCollVehicle.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALFixedDeposit.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALinkloan.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALoan.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALoanGrace.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALoanTra.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALRegCust.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALRegistration.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALSch.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALSchHistry.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ALSchHistry1.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AMClearance.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AMClearanceH.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AMClearanceHR.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AMinBal.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AMTransLoan.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AMTrn.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ANomAcc.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ANominee.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AODIntReceivable.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AODSetUp.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AOfCust.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AOPolInt.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\APBookChked.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\APolicyInterest.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\APolPen.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\APRate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ARate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ARateMaster.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ASClearance.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ASTransLoan.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ASTransLoanDesc.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ASTrn.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ATempFloatIntRate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AWtdQueue.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BankInfo.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BatchDescription.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BloodGroup.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BrnchGlobal.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BSADCal.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CashFlow.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CashLimit.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CertificateDef.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChannakyaAccounting.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChannakyaAccounting.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChannakyaAccounting.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChannakyaAccounting.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChannakyaAccounting.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChargeDetail.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChequeBookStatu.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChequeBookStatus1.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChgMTrnx.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChgSTrnx.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChqAttribute.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChqInventory.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChqRqst.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ChqSize.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CollMainTemp.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CollSheet.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CollSheetTran.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CollTemp.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Company.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContactDef.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CurrencyType.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CurrencyType1.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustAddress.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustCertificate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustCompany.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustCompGroup.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustContact.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustContactPerson.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustIndividual.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustInfo.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustIRegContact.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustType.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustTypeCertificate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustTypeContact.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustTypeSector.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\C_temp.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\C__MigrationHistory.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataType.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DenoBal.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Denosetup.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DenoTrxn.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DenoTrxnLog.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Department.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DepositBasi.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Designation.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DimensionDefination.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DimensionTable.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DimensionValue.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DimensionVSLedger.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DisburseCash.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DisburseCharge.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DisburseCheque.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DisburseDeposit.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DisbursementMain.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DisburseVsPID.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Duration.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Employee.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmployeeVsBranch.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Event.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FinAcc.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FinSys1.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FinSys2.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FiscalYear.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FiscalYear1.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FiscalYear2.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Flag.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ForeignBuySell.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ForeignSBuySell.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FrxCurrency.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FrxCurrencyRate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Gender.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Guarantor.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HADRenew.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HALRenew.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HolidaysInYear.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IchkBounce.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IChkDep.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\InterestLog.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\InterestMinimumBalance.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\InterestRule.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\InterestTime.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\IntLog.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LicenseBranch.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LicenseRegion.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Location.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LocationMaster.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LocationTypeDef.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoginLog.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MaritialStatu.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MenuMain.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MenuTemplate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MenuVsTemplate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MenuVsTransferRole.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MessInfo.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MobileBanking.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Module.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MyBalance.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Nationality.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NCollateralDetail.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NDate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NDateD.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OccupationDef.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OnProccessingVoucher.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Param.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ParamScript.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ParamValue.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PolicyIntCalc.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PolicyPenCalc.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductBrnch.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductCurrency.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductDetail.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductDurationInt.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductICBDur.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductOPSID.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductPay.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductPCID.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductPSID.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductTID.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReferenceInfo.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Religion.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RemitDeposit.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RemitPayment.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RemittanceCustomer.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Role.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RuleBalance.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RuleDuration.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RuleICB.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RuleICBDuration.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RuleMovement.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RulePay.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RulePaySch.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RulePenBalance.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RuleRate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RuleRenew.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SchmDetail.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SCrtDtl.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SectorDef.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShareReferenceInfo.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SheetNo.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShrPurchase.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShrReg.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShrReturn.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShrSetup.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShrSPurchase.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShrSReturn.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Snominee.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Status.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StatusChangeLog.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SubsiDetail.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SubsiDetail1.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SubsiSetup.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SubsiTable.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SubsiTitle_not_used.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SubsiVSFId.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SubsiVSOpeningBalance.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SWRestrictionA.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Task.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TaskDetail.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\taskDetails1.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TaxsetupDef.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TempALSch.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tempFinAcc.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TempIntRate.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TempIntRateVal.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TmEditLog.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TranLnk.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TransactionEditStatusLog.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TransferRole.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TType.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\User.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserClaim.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserConnection.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserConnection1.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserLogin.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserRole.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserVSBranch.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserVsRole.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserVSVoucher.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\uttno.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Voucher1.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Voucher1T.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Voucher2.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Voucher2T.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Voucher3.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Voucher3T.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Voucher4.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Voucher4T.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Voucher5.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Voucher5T.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VoucherBal.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VoucherCount.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VoucherNo.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VoucherRejected.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VoucherType.cs">
+      <DependentUpon>ChannakyaAccounting.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Partial\AllPartial.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\AccountSearchViewModelAcc.cs" />
+    <Compile Include="ViewModel\ClientPagination.cs" />
+    <Compile Include="ViewModel\EnumValue.cs" />
+    <Compile Include="ViewModel\LedgerViewModelFinAcc.cs" />
+    <Compile Include="ViewModel\OpeningBalanceViewModel.cs" />
+    <Compile Include="ViewModel\Reports.cs" />
+    <Compile Include="ViewModel\ReturnBaseViewModel.cs" />
+    <Compile Include="ViewModel\SearchViewModel.cs" />
+    <Compile Include="ViewModel\ServerSidePagingForAll.cs" />
+    <Compile Include="ViewModel\SubsiViewModel.cs" />
+    <Compile Include="ViewModel\TaskVerification.cs" />
+    <Compile Include="ViewModel\TreeView.cs" />
+    <Compile Include="ViewModel\VoucherReportViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="Models\ChannakyaAccounting.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ChannakyaAccounting.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\ChannakyaAccounting.edmx.diagram">
+      <DependentUpon>ChannakyaAccounting.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\ChannakyaAccounting.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ChannakyaAccounting.edmx</DependentUpon>
+      <LastGenOutput>ChannakyaAccounting.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ChannakyaAccounting.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ChannakyaAccounting.edmx</DependentUpon>
+      <LastGenOutput>ChannakyaAccounting.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,218 @@
+﻿@model IEnumerable<Loader.Models.Employee>
+@using Loader.Helper
+
+
+
+@{
+    var test = Model;
+    var id = ViewBag.ViewType;
+    // string address = ViewBag.Address.ToString();
+    var pEmployeeId = ViewBag.ParentEmployeeId;
+}
+
+
+
+<div class="box box-success">
+    <div class="box-header" style="background-color:cornflowerblue; color:white;">
+
+        <div class="col-md-9" style="margin:-5px; padding-left:0px;">
+            @*@if (ViewBag.ParentEmployeeId != 0)
+                {
+                    <button type="button" id="btn-back" class="glyphicon glyphicon-backward" style="background-color:cornflowerblue;border:none;" value="Back"></button>
+                }*@
+            @*@Html.Label("address", @address)*@
+
+            <b>Employees</b>
+        </div>
+
+        @*<input type="button" class="btn-default" value="Back" id="btnBack" />*@
+
+        <div class="box-tools" style="margin: -6px 0 0 0;">
+            @*<div class="listSearch"style="color:black;">
+
+
+                </div>*@
+            @*<input type="button" value="Create" id="btnCreateEmployee" class="btn-default" />*@
+            <div class="pEmployeeId">@Html.HiddenFor(x => pEmployeeId)</div>
+            @if (ViewBag.Query != null)
+            {
+                <input type="text" name="text-filter-tree" class="btn btn-box-tool txtSearch" value="@ViewBag.Query" placeholder="Search..." style="background-color:white;height:30px;margin-bottom: 4px">
+            }
+            else
+            {
+                <input type="text" name="text-filter-tree" class="btn btn-box-tool txtSearch" placeholder="Search..." style="background-color:white;height:30px;margin-bottom: 4px">
+            }
+
+            @*<button type="button" name="search" class="btn btn-box-tool btnSearch" style="color:white;">
+                    <i class="fa fa-search"></i>
+                </button>*@
+            <button class="btn btn-box-tool btn-create-Employees" style="color:white;"> <i class="fa fa-plus"></i></button>
+            
+
+            <button class="btn btn-box-tool listView" style="color:white;"> <i class="fa fa-list-ul"></i></button>
+
+            <button class="btn btn-box-tool" style="color:white;" data-widget="collapse"> <i class="fa fa-minus"></i></button>
+
+
+        </div>
+    </div><!-- /.box-header -->
+
+    <div class="box-body">
+
+        @if (ViewBag.ViewType == 1)
+        {
+            var hasChild = Model.Count();
+            if (hasChild == 0)
+            {
+                <b> No Childs found to Display</b>
+            }
+            else
+            {
+                foreach (var item in Model)
+                {
+                 
+                        <div class="col-md-3 col-xs-6 detailsList">
+                            <!-- small box -->
+                            @Html.Partial("_GridView", item)
+                        </div><!-- ./col -->
+                    
+
+                }
+            }
+        }
+        else
+        {
+
+            var hasChild = Model.Count();
+            if (hasChild == 0)
+            {
+                <b> No Childs found to Display</b>
+            }
+            else
+            {
+                <div class="listTable" style="max-height:400px;overflow:auto;">
+                    @Html.Partial("_ListViewMain", Model)
+                </div>
+            }
+        }
+
+    </div><!-- /.box-body -->
+    @if (ViewBag.CountPager > 1)
+    {
+        <ul class="pagination pager-list">
+            <li class="previous"><a href="#">Previous</a></li>
+            @for (int i = 1; i <= ViewBag.CountPager; i++)
+            {
+                if (i > 4)
+                {
+                    if (i == ViewBag.ActivePager)
+                    {
+                        <li id=@i class="pagerClass active"><a>@i</a> </li>
+                    }
+                    else
+                    {
+                        if (i == ViewBag.CountPager)
+                        {
+                            <li class=""><a>.......</a> </li>
+                                    <li id=@ViewBag.CountPager class="pagerClass"><a>@ViewBag.CountPager</a> </li>
+
+                        }
+                        else
+                        {
+
+                            <li id=@i class="pagerClass" style="display:none;"><a>i</a> </li>
+                        }
+
+                    }
+                }
+                else
+                {
+                    if (i == ViewBag.ActivePager)
+                    {
+                        <li id=@i class="pagerClass active"><a>@i</a> </li>
+                    }
+                    else
+                    {
+                        <li id=@i class="pagerClass"><a>@i</a> </li>
+                    }
+                }
+
+            }
+            <li class="next"><a href="#">Next</a></li>
+
+        </ul>
+    }
+</div>
+<script>
+    $(document).ready(function () {
+       
+        var searchInput = $('input.btn.btn-box-tool.txtSearch');
+        var strLength = searchInput.val().length * 2;
+        searchInput.focus();
+        searchInput[0].setSelectionRange(strLength, strLength);
+       
+        $('.pagination').on('click', 'li.next , li.previous', function () {
+            debugger;
+            var cls = $(this).attr('class');
+            if ($(this).attr('class') == 'next') {
+                var pager = $('ul.pagination.pager-list').find('.active').attr('id');
+                var finalId = parseInt(pager) + 1;
+                var hasNext = $('ul.pagination.pager-list').find('li#' + finalId)
+                if ($(hasNext).length > 0) {
+                    var container = $(this).closest('.Employee-explore').find('.panel-list');
+                    var listType = $(this).closest('.Employee-explore').find('#viewType').val();
+                    $(container).load("/Employee/_Details", { page: finalId,ViewType:listType });
+
+                    var checkActive = $('ul.pagination.pager-list').find('li').hasClass('active');
+                    if (checkActive == true) {
+                        $('ul.pagination.pager-list').find('.active').removeClass('active');
+                    }
+                    $('ul.pagination.pager-list').find('li#' + finalId).addClass('active');
+                }
+            }
+            else {
+                var pager = $('ul.pagination.pager-list').find('.active').attr('id');
+                var finalId = parseInt(pager) - 1;
+                var hasPrev = $('ul.pagination.pager-list').find('li#' + finalId)
+                var listType = $(this).closest('.Employee-explore').find('#viewType').val();
+                if ($(hasPrev).length > 0) {
+                    var container = $(this).closest('.Employee-explore').find('.panel-list');
+                    $(container).load("/Employee/_Details", { page: finalId,ViewType:listType });
+
+                    var checkActive = $('ul.pagination.pager-list').find('li').hasClass('active');
+                    if (checkActive == true) {
+                        $('ul.pagination.pager-list').find('.active').removeClass('active');
+                    }
+                    $('ul.pagination.pager-list').find('li#' + finalId).addClass('active');
+                }
+            }
+
+        });
+        $('.pagination').on('click', '.pagerClass', function () {
+            debugger;
+            var pagingData = $(this).attr('id');
+            var container = $(this).closest('.Employee-explore').find('.panel-list');
+            var listType = $(this).closest('.Employee-explore').find('#viewType').val();
+            $(container).load("/Employee/_Details", { page: pagingData,ViewType:listType });
+            var checkActive = $('ul.pagination.pager-list').find('li').hasClass('active');
+            if (checkActive == true) {
+                $('ul.pagination.pager-list').find('.active').removeClass('active');
+            }
+            $('ul.pagination.pager-list').find('li#' + pagingData).addClass('active');
+
+        });
+
+    });
+</script>
+
+<style>
+    .details {
+        width: 30%;
+        max-height: 129px;
+    }
+
+    input.btn.btn-box-tool.txtSearch {
+        cursor: text;
+    }
+</style>
+
